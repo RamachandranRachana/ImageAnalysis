@@ -20,4 +20,4 @@ plt.imshow(img,cmap="hot",interpolation='bilinear')
 plt.show()
 
 #saving onto a file
-cv2.imwrite("Picture1gray",img)
+cv2.imwrite("Picture1gray.png",img)
